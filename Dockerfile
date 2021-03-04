@@ -1,4 +1,4 @@
-FROM xxqg/arm64
+FROM ubuntu 15.04
 
 RUN apt-get update && \
     apt-get upgrade -y && \
